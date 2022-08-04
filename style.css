@@ -19,12 +19,22 @@
     color: white;
 }
 
+.boxw {
+    width: 80%;
+    margin-left: 10%;
+}
+
 .wrapper {
     margin: 40px auto;
-    width: 80%;
+    width: 100%;
     height: 200px auto;
-    background-color: lightgray;
+    background-color: rgb(240, 240, 240);
     align-self: center;
+}
+
+.wrapper1 {
+    margin: 40px auto;
+    width: 100%;
 }
 
 .wrapper h1 {
@@ -43,117 +53,100 @@
     margin: 20px auto;
 }
 
-.wrapper1 {
-    margin: 40px auto;
-    width: 80%;
-    align-self: center;
-}
-
 .box {
-    height: 350px;
     align-items: center;
     justify-content: left;
-    width: 295px;
     border-color: lightgray;
     border-style: solid;
     border-width: 1px;
-    padding: 20px 0;
+    padding: 5px 5px;
     float: left;
     margin-bottom: 60px;
+    margin: 2px;
 }
 
 .box img {
-    width: 90%;
-    margin-left: 15px;
+    width: 100%;
 }
 
 .box h2 {
-    margin-left: 15px;
+    margin-left: 5px;
 }
 
 .box p {
-    margin-left: 15px;
+    margin-left: 5px;
 }
 
 .box1 {
-    height: 350px;
     align-items: center;
     justify-content: left;
-    width: 295px;
     border-color: lightgray;
     border-style: solid;
     border-width: 1px;
-    padding: 20px 0;
+    padding: 5px 5px;
     float: left;
-    margin-left: 15px;
     margin-bottom: 60px;
+    margin: 2px;
 }
 
 .box1 img {
-    width: 90%;
-    margin-left: 15px;
+    width: 100%;
 }
 
 .box1 h2 {
-    margin-left: 15px;
+    margin-left: 5px;
 }
 
 .box1 p {
-    margin-left: 15px;
+    margin-left: 5px;
 }
 
 .box2 {
-    height: 350px;
     align-items: center;
     justify-content: left;
-    width: 295px;
     border-color: lightgray;
     border-style: solid;
     border-width: 1px;
-    padding: 20px 0;
+    padding: 5px 5px;
     float: left;
-    margin-left: 15px;
     margin-bottom: 60px;
+    margin: 2px;
 }
 
 .box2 img {
-    width: 90%;
-    margin-left: 15px;
+    width: 100%;
 }
 
 .box2 h2 {
-    margin-left: 15px;
+    margin-left: 5px;
 }
 
 .box2 p {
-    margin-left: 15px;
+    margin-left: 5px;
 }
 
 .box3 {
-    height: 350px;
     align-items: center;
     justify-content: left;
-    width: 295px;
     border-color: lightgray;
     border-style: solid;
     border-width: 1px;
-    padding: 20px 0;
+    padding: 5px 5px;
     float: left;
-    margin-left: 15px;
     margin-bottom: 60px;
+    margin: 2px;
 }
 
 .box3 img {
-    width: 90%;
-    margin-left: 15px;
+    width: 100%;
 }
 
 .box3 h2 {
-    margin-left: 15px;
+    margin-left: 5px;
 }
 
 .box3 p {
-    margin-left: 15px;
+    margin-left: 5px;
 }
 
 .btn0 {
@@ -170,7 +163,7 @@
     border-width: 0ch;
     width: 90px;
     height: 30px;
-    margin-left: 15px;
+    margin-left: 5px;
 }
 
 .btnm {
@@ -179,4 +172,38 @@
     width: 90px;
     height: 30px;
     border-color: solid;
+}
+
+@media screen and (max-width: 1024px) {
+    .box,
+    .box1,
+    .box2,
+    .box3 {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .box,
+    .box1,
+    .box2,
+    .box3 {
+        width: 45%;
+    }
+    .container .header {
+        font-size: 16px;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .box,
+    .box1,
+    .box2,
+    .box3 {
+        width: 100%;
+    }
+    .container .header {
+        font-size: 14px;
+    }
 }
